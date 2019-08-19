@@ -125,7 +125,7 @@ class NumberKeyboard extends StatelessWidget {
                 child: GestureDetector(
                   behavior: HitTestBehavior.translucent,
                   child: Center(
-                    child: Text('X'),
+                    child: Icon(Icons.backspace),
                   ),
                   onTap: () {
                     if (controller.text.isEmpty) {
