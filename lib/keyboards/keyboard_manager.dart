@@ -170,10 +170,10 @@ class CoolKeyboard {
     }
     _pageKey = null;
 
-    KeyboardMediaQueryState queryState = _context
-            .ancestorStateOfType(const TypeMatcher<KeyboardMediaQueryState>())
-        as KeyboardMediaQueryState;
-    queryState.update();
+    // KeyboardMediaQueryState queryState = _context
+    //         .ancestorStateOfType(const TypeMatcher<KeyboardMediaQueryState>())
+    //     as KeyboardMediaQueryState;
+    // queryState.update();
   }
 
   static clearKeyboard() {
